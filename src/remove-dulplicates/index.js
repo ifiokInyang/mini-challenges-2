@@ -8,7 +8,7 @@ for (let i = 0; i<sortedArray.length; i++){
 keyObject = sortedArray[i]
 valueObject = obj[sortedArray[i]]
 rearrangedObject[keyObject] = valueObject
-// start from length-1
+// start from the end to filter (length-1)
 valueObject.flat().filter(arrayElement => arrayElement.indexOf()> -1)
 }
 return rearrangedObject
